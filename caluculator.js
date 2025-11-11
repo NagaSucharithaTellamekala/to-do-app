@@ -1,0 +1,17 @@
+let name = "suchi";        
+let marks1 = 85;          
+let marks2 = 90;      
+let marks3 = 78;     
+let total = marks1 + marks2 + marks3;
+let average = total / 3;
+let grade;
+if (average >= 90) grade = "A";
+else if (average >= 80) grade = "B";
+else if (average >= 70) grade = "C";
+else if (average >= 60) grade = "D";
+else grade = "F";
+console.log("Name     : " + name);
+console.log("Marks    : " + marks1 + ", " + marks2 + ", " + marks3);
+console.log("Total    : " + total);
+console.log("Average  : " + average.toFixed(2));
+console.log("Grade    : " + grade);
