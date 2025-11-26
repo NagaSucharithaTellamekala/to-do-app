@@ -1,0 +1,24 @@
+{
+  "name": "studentgrade",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NagaSucharithaTellamekala/to-do-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/NagaSucharithaTellamekala/to-do-app/issues"
+  },
+  "homepage": "https://github.com/NagaSucharithaTellamekala/to-do-app#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
