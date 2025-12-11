@@ -44,7 +44,6 @@ async function removeTask(number) {
 }
 const command = process.argv[2];
 const input = process.argv[3];
-
 async function main() {
   switch (command) {
     case "add":
